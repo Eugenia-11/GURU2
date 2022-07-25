@@ -7,11 +7,19 @@ import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
 
+
     lateinit var cameraButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        var button1 : Button
+
+        button1.setOnClickListener{
+            val intent = Intent(this, ppl::class.java)
+            startActivity(intent)
+        }
 
         cameraButton = findViewById(R.id.cameraButton)
 
