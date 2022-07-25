@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/people2"
+        android:layout_width="197dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="108dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="83dp"
+        android:text="2명"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/people34"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/people34"
+        android:layout_width="197dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="85dp"
+        android:text="3~4명"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/peoplem"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/people2" />
+
+    <Button
+        android:id="@+id/peoplem"
+        android:layout_width="197dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="107dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginBottom="197dp"
+        android:text="다인원"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/people34" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
