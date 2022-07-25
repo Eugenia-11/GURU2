@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
        button1.setOnClickListener{
             val intent = Intent(this, ppl::class.java)
             startActivity(intent)
+           finish()
         }
 
         cameraButton = findViewById(R.id.cameraButton)
