@@ -16,12 +16,13 @@ class ppl : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ppl)
 
+
         people2 = findViewById(R.id.people2)
         people2.setOnClickListener{
             val intent = Intent(this,ppl2::class.java)
             startActivity(intent)
         }
-
+        peoplem = findViewById(R.id.peoplem)
         peoplem.setOnClickListener{
             val intent=Intent(this,PoseMajorityActivity::class.java)
             startActivity(intent)
