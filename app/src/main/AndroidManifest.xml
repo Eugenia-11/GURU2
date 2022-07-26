@@ -31,12 +31,16 @@
 
         <activity
             android:name=".PoseMajorityActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ppl"/>
         <activity
             android:name=".ppl2"
             android:exported="false" />
         <activity
             android:name=".ppl"
+            android:exported="false" />
+        <activity
+            android:name=".twoppl"
             android:exported="false" />
         <activity
             android:name=".CameraActivity"

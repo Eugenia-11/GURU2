@@ -23,29 +23,27 @@
         android:layout_height="273dp"
         android:layout_row="1"
         android:layout_column="0"
-        android:src="@drawable/manyppl"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:src="@drawable/m6" />
+
+
     <ImageView
         android:layout_width="211dp"
         android:layout_height="273dp"
         android:layout_row="1"
         android:layout_column="1"
-        android:src="@drawable/manyppl2"
+        android:src="@drawable/m4"
         android:scaleType="fitXY"/>
     <ImageView
         android:layout_width="211dp"
         android:layout_height="273dp"
         android:layout_row="2"
         android:layout_column="0"
-        android:src="@drawable/manyppl3"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
+        android:src="@drawable/m3"
         android:scaleType="fitXY"/>
-    <ImageView
-        android:layout_width="211dp"
-        android:layout_height="273dp"
-        android:layout_row="2"
-        android:layout_column="1"
-        android:src="@drawable/manyppl4"
-        android:scaleType="fitXY"/>
+
 
 
 </GridLayout>
