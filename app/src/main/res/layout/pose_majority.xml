@@ -23,8 +23,10 @@
         android:layout_height="273dp"
         android:layout_row="1"
         android:layout_column="0"
-        android:src="@drawable/manyppl"
-        android:scaleType="fitXY"/>
+        android:scaleType="fitXY"
+        android:src="@drawable/manyppl" />
+
+
     <ImageView
         android:layout_width="211dp"
         android:layout_height="273dp"

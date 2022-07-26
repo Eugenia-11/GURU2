@@ -8,6 +8,7 @@ import android.widget.Button
 class ppl : AppCompatActivity() {
 
     lateinit var people2 : Button
+    lateinit var peoplem: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,6 +17,11 @@ class ppl : AppCompatActivity() {
 
         people2.setOnClickListener{
             val intent = Intent(this,ppl2::class.java)
+            startActivity(intent)
+        }
+
+        peoplem.setOnClickListener{
+            val intent=Intent(this,PoseMajorityActivity::class.java)
             startActivity(intent)
         }
 
