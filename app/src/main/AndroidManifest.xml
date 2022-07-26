@@ -37,9 +37,6 @@
             android:name=".ppl"
             android:exported="false" />
         <activity
-            android:name=".twoppl"
-            android:exported="false" />
-        <activity
             android:name=".CameraActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
