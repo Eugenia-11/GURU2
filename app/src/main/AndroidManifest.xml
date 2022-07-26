@@ -27,7 +27,8 @@
 
         <activity
             android:name=".PoseMajorityActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:parentActivityName=".ppl"/>
         <activity
             android:name=".ppl2"
             android:exported="false" />
