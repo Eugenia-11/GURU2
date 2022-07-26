@@ -15,11 +15,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
+      button1 = findViewById(R.id.button1)
 
        button1.setOnClickListener{
             val intent = Intent(this, ppl::class.java)
             startActivity(intent)
+
         }
 
         cameraButton = findViewById(R.id.cameraButton)

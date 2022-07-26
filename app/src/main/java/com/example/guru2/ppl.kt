@@ -10,11 +10,13 @@ class ppl : AppCompatActivity() {
     lateinit var people2 : Button
     lateinit var peoplem: Button
 
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_ppl)
 
-
+        people2 = findViewById(R.id.people2)
         people2.setOnClickListener{
             val intent = Intent(this,ppl2::class.java)
             startActivity(intent)
