@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.guru2
 
 import android.os.Bundle
 import android.widget.ImageView
