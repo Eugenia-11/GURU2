@@ -2,48 +2,65 @@
 <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pose2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PoseMajorityActivity"
+    android:background="#EFF7F8"
     android:columnCount="2"
-    android:rowCount="3">
+    android:rowCount="3"
+    tools:context=".PoseMajorityActivity">
 
     <TextView
         android:layout_row="0"
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
-        android:text="다인원 포즈 모음"
-        android:textSize="32dp"
         android:gravity="center"
-        />
+        android:text="친구와 함께"
+        android:textAlignment="center"
+        android:textColor="#37093F"
+        android:textSize="32dp" />
 
     <ImageView
+        android:id="@+id/f3"
         android:layout_width="211dp"
         android:layout_height="273dp"
         android:layout_row="1"
         android:layout_column="0"
         android:scaleType="fitXY"
-        android:src="@drawable/m6" />
+        android:src="@drawable/f3" />
 
 
     <ImageView
+        android:id="@+id/f1"
+        android:layout_width="211dp"
+        android:layout_height="273dp"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/f4" />
+
+    <ImageView
+        android:id="@+id/f4"
         android:layout_width="211dp"
         android:layout_height="273dp"
         android:layout_row="1"
         android:layout_column="1"
-        android:src="@drawable/m4"
-        android:scaleType="fitXY"/>
+        android:layout_columnSpan="1"
+        android:layout_gravity="fill_horizontal"
+        android:scaleType="fitXY"
+        android:src="@drawable/f5" />
+
     <ImageView
+        android:id="@+id/f2"
         android:layout_width="211dp"
         android:layout_height="273dp"
         android:layout_row="2"
         android:layout_column="0"
-        android:layout_columnSpan="2"
+        android:layout_columnSpan="1"
         android:layout_gravity="fill_horizontal"
-        android:src="@drawable/m3"
-        android:scaleType="fitXY"/>
-
+        android:scaleType="fitXY"
+        android:src="@drawable/f2" />
 
 
 </GridLayout>
