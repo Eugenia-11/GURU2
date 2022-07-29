@@ -4,36 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PoseMajorityActivity"
     android:columnCount="2"
-    android:rowCount="3">
+    android:rowCount="4">
 
     <TextView
         android:layout_row="0"
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
-        android:text="다인원 포즈 모음"
-        android:textSize="32dp"
+        android:background="#E8E6D3"
         android:gravity="center"
-        />
+        android:text="가족 포즈 모음"
+        android:textAlignment="center"
+        android:textColor="#115A14"
+        android:textSize="32dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="211dp"
         android:layout_height="273dp"
         android:layout_row="1"
         android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="fill_horizontal"
         android:scaleType="fitXY"
-        android:src="@drawable/m6" />
+        android:src="@drawable/family1" />
 
 
-    <ImageView
-        android:layout_width="211dp"
-        android:layout_height="273dp"
-        android:layout_row="1"
-        android:layout_column="1"
-        android:src="@drawable/m4"
-        android:scaleType="fitXY"/>
     <ImageView
         android:layout_width="211dp"
         android:layout_height="273dp"
@@ -41,7 +38,7 @@
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
-        android:src="@drawable/m3"
+        android:src="@drawable/family2"
         android:scaleType="fitXY"/>
 
 

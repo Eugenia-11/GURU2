@@ -9,6 +9,7 @@ class ppl : AppCompatActivity() {
 
     lateinit var people2 : Button
     lateinit var peoplem: Button
+    lateinit var people34:Button
 
 
 
@@ -22,11 +23,19 @@ class ppl : AppCompatActivity() {
             val intent = Intent(this,ppl2::class.java)
             startActivity(intent)
         }
-        peoplem = findViewById(R.id.peoplem)
-        peoplem.setOnClickListener{
-            val intent=Intent(this,PoseMajorityActivity::class.java)
+
+        people34=findViewById(R.id.people34)
+        people34.setOnClickListener {
+            val intent=Intent(this,three_pose::class.java)
             startActivity(intent)
         }
+
+        peoplem = findViewById(R.id.peoplem)
+        peoplem.setOnClickListener{
+            val intent=Intent(this,pplm::class.java)
+            startActivity(intent)
+        }
+
 
     }
 }

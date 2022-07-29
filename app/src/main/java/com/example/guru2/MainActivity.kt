@@ -10,6 +10,7 @@ class MainActivity : AppCompatActivity() {
 
     lateinit var cameraButton: Button
     lateinit var button1 : Button
+    lateinit var button2:Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -26,8 +27,15 @@ class MainActivity : AppCompatActivity() {
         cameraButton = findViewById(R.id.cameraButton)
 
         cameraButton.setOnClickListener {
-            var intent = Intent(this, CameraActivity::class.java)
+            val intent = Intent(this, CameraActivity::class.java)
             startActivity(intent)
         }
+
+        button2=findViewById(R.id.button2)
+        button2.setOnClickListener {
+            val intent=Intent(this,ChooseRltshp::class.java)
+            startActivity(intent)
+        }
+
     }
 }
