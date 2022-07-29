@@ -19,6 +19,13 @@ class ChooseRltshp : AppCompatActivity() {
 
 
 
+        friends=findViewById(R.id.friends)
+        friends.setOnClickListener{
+            val intent=Intent(this,With_friend::class.java)
+            startActivity(intent)
+        }
+
+
         family=findViewById(R.id.family)
         family.setOnClickListener {
             val intent=Intent(this, Family::class.java)
