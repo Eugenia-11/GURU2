@@ -15,7 +15,7 @@
         android:layout_gravity="fill_horizontal"
         android:background="#E8E6D3"
         android:gravity="center"
-        android:text="다인원 포즈 모음"
+        android:text="다인원 포즈 추천"
         android:textAlignment="center"
         android:textColor="#115A14"
         android:textSize="32dp"

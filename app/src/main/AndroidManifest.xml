@@ -21,37 +21,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GURU2"
         tools:targetApi="31">
-        <activity
-            android:name=".three_pose"
-            android:exported="false" />
-        <activity
-            android:name=".ChooseRltshp"
-            android:exported="false" />
-        <activity
-            android:name=".Family"
-            android:exported="false" />
-        <activity
-            android:name=".pplm"
-            android:exported="false" />
 
-        <meta-data
-            android:name="com.google.android.actions"
-            android:resource="@xml/confirm_btn" />
-
-        <activity
-            android:name=".PoseMajorityActivity"
-            android:exported="false"
-            android:parentActivityName=".ppl" />
-        <activity
-            android:name=".ppl2"
-            android:exported="false" />
-        <activity
-            android:name=".ppl"
-            android:exported="false" />
-        <activity
-            android:name=".CameraActivity"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
+        //시작 화면1 - 인트로
         <activity
             android:name=".IntroActivity"
             android:exported="true">
@@ -61,7 +32,69 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        //시작 화면2 - 인생네컷 포즈
         <activity android:name=".MainActivity" />
+
+        //인원별 포즈 추천
+        <activity
+            android:name=".ppl"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        //2명
+        <activity
+            android:name=".ppl2"
+            android:exported="false"
+            android:parentActivityName=".ppl"/>
+
+        //3~4명
+        <activity
+            android:name=".three_pose"
+            android:exported="false"
+            android:parentActivityName=".ppl"/>
+
+        //다인원
+        <activity
+            android:name=".pplm"
+            android:exported="false"
+            android:parentActivityName=".ppl"/>
+
+        //상황별 포즈 추천
+        <activity
+            android:name=".ChooseRltshp"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        //연인
+
+
+        //친구
+        <activity
+            android:name=".With_friend"
+            android:exported="false"
+            android:parentActivityName=".ChooseRltshp" />
+
+        //가족
+        <activity
+            android:name=".Family"
+            android:exported="false"
+            android:parentActivityName=".ChooseRltshp"/>
+
+
+        //오늘의 소품 추천
+
+
+        //카메라 버튼
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/confirm_btn" />
+
     </application>
 
 </manifest>
