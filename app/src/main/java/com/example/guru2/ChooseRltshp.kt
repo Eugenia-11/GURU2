@@ -21,7 +21,7 @@ class ChooseRltshp : AppCompatActivity() {
 
         friends=findViewById(R.id.friends)
         friends.setOnClickListener{
-            val intent=Intent(this,With_friend::class.java)
+            val intent=Intent(this, With_friend::class.java)
             startActivity(intent)
         }
 
