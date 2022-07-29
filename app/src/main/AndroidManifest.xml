@@ -83,6 +83,9 @@
 
 
         //오늘의 소품 추천
+        <activity android:name=".Props"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"/>
 
 
         //카메라 버튼
