@@ -67,7 +67,10 @@
             android:parentActivityName=".MainActivity" />
 
         //연인
-
+        <activity
+            android:name=".with_couple"
+            android:exported="false"
+            android:parentActivityName=".ChooseRltshp" />
 
         //친구
         <activity
