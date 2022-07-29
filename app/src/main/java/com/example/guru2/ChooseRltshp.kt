@@ -25,7 +25,11 @@ class ChooseRltshp : AppCompatActivity() {
             startActivity(intent)
         }
 
-
+        lovers=findViewById(R.id.lovers)
+        lovers.setOnClickListener{
+            val intent=Intent(this,with_couple::class.java)
+            startActivity(intent)
+        }
 
 
         family=findViewById(R.id.family)
