@@ -5,10 +5,10 @@
     android:id="@+id/pose2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F9DFDD"
+    android:background="@color/white"
     android:columnCount="2"
     android:rowCount="3"
-    tools:context=".PoseMajorityActivity">
+    tools:context=".ppl">
 
     <TextView
         android:layout_row="0"
@@ -18,7 +18,7 @@
         android:gravity="center"
         android:text="2인 포즈 추천"
         android:textAlignment="center"
-        android:textColor="#1B34BF"
+        android:textColor="@color/black"
         android:textSize="32dp" />
 
     <ImageView

@@ -18,7 +18,7 @@
         android:gravity="center"
         android:text="친구와 함께"
         android:textAlignment="center"
-        android:textColor="#731C82"
+        android:textColor="#37093F"
         android:textSize="32dp" />
 
     <ImageView
