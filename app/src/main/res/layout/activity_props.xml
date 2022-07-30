@@ -19,7 +19,8 @@
         android:text="오늘의 소품 추천"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="32dp" />
+        android:textSize="32dp"
+        android:textStyle="bold" />
 
     <ImageView
         android:id="@+id/SYSDOCU"
