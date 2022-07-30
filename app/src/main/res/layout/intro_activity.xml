@@ -10,5 +10,5 @@
         android:layout_height="match_parent"
         android:layout_weight="1"
         android:scaleType="fitXY"
-        android:src="@drawable/starlimagefinal2" />
+        android:src="@drawable/startimagefinal4" />
 </LinearLayout>

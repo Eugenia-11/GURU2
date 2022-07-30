@@ -18,14 +18,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="89dp"
-        android:layout_height="77dp"
-        android:layout_marginTop="154dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCamera"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
 </androidx.constraintlayout.widget.ConstraintLayout>

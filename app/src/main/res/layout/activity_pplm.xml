@@ -12,13 +12,12 @@
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
-        android:background="#E8E6D3"
+        android:background="@color/white"
         android:gravity="center"
         android:text="다인원 포즈 추천"
         android:textAlignment="center"
-        android:textColor="#115A14"
-        android:textSize="32dp"
-        android:textStyle="bold" />
+        android:textColor="@color/black"
+        android:textSize="32dp" />
 
     <ImageView
         android:layout_width="211dp"

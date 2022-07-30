@@ -5,7 +5,7 @@
     android:id="@+id/pose2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EFF7F8"
+    android:background="@color/white"
     android:columnCount="2"
     android:rowCount="3"
     tools:context=".ChooseRltshp">
@@ -18,7 +18,7 @@
         android:gravity="center"
         android:text="친구와 함께"
         android:textAlignment="center"
-        android:textColor="#37093F"
+        android:textColor="@color/black"
         android:textSize="32dp" />
 
     <ImageView
