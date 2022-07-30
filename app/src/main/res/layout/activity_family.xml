@@ -14,11 +14,10 @@
         android:layout_gravity="fill_horizontal"
         android:background="@color/white"
         android:gravity="center"
-        android:text="가족 포즈 모음"
+        android:text="가족과 함께"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="32dp"
-        android:textStyle="bold" />
+        android:textSize="32dp" />
 
     <ImageView
         android:layout_width="211dp"
