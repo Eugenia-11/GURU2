@@ -15,10 +15,12 @@
         android:layout_column="0"
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
+        android:background="#F2ECEC"
+        android:backgroundTint="#F2ECEC"
         android:gravity="center"
         android:text="2인 포즈 추천"
         android:textAlignment="center"
-        android:textColor="@color/black"
+        android:textColor="#223FDE"
         android:textSize="32dp" />
 
     <ImageView
